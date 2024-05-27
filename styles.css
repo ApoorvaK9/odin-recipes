@@ -1,0 +1,37 @@
+/* Main page styles */
+
+/* Background color*/
+.mainpg {
+    background-color: rgb(238, 237, 202);
+}
+
+/* h1 heading settings */
+.mainpg_title {
+    font-weight: bolder;
+    font-size: 60px;
+    font-family: serif;
+    color: black;
+}
+
+/* Recipe list font  */
+.mainpg ul {
+    font-size: 30px;
+}
+
+/* Coffee background and font color */
+.mainpg_coffee {
+    color: #553232;
+    background-color: rgba(240, 142, 142, 0.3) ;
+}
+
+/* Avacado background and font color */
+.mainpg_avacado {
+    color: green;
+    background-color: rgba(163, 238, 163, 0.3) ;
+}
+
+/* Paneer background and font color */
+.mainpg_paneer {
+    color: rgb(216, 147, 20);
+    background-color: rgba(235, 210, 165, 0.3) ;
+}
