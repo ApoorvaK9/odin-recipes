@@ -2,7 +2,7 @@
 
 /* Background color*/
 .mainpg {
-    background-color: rgb(238, 237, 202);
+    background-color: rgb(245, 244, 233);
 }
 
 /* h1 heading settings */
@@ -14,24 +14,58 @@
 }
 
 /* Recipe list font  */
-.mainpg ul {
+.mainpg li {
     font-size: 30px;
 }
 
 /* Coffee background and font color */
-.mainpg_coffee {
+li .mainpg_coffee {
     color: #553232;
     background-color: rgba(240, 142, 142, 0.3) ;
 }
 
 /* Avacado background and font color */
-.mainpg_avacado {
+li .mainpg_avacado {
     color: green;
     background-color: rgba(163, 238, 163, 0.3) ;
 }
 
 /* Paneer background and font color */
-.mainpg_paneer {
+li .mainpg_paneer {
     color: rgb(216, 147, 20);
+    background-color: rgba(235, 210, 165, 0.3) ;
+}
+
+/* Coffee page */
+
+/* h1 styles */
+h1,h2 {
+    font-weight: bolder;
+    font-family: serif,'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 30px; 
+}
+
+p,li {
+    font-weight: 400;
+    font-family: serif,'Times New Roman', Times, serif;
+    font-size: 20px; 
+}
+
+#coffee {
+    background-color: rgba(243, 192, 192, 0.3);
+}
+
+#avacado {
+    background-color: rgba(163, 238, 163, 0.3) ;
+}
+
+#paneer {
     background-color: rgba(235, 210, 165, 0.3) ;
 }
